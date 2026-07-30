@@ -26,7 +26,7 @@ export default function Home() {
       }
     });
   }
-
+  // added a new function to handle login
   const onLogin = async () => {
 
     await authClient.signIn.email({ email, password }, {
