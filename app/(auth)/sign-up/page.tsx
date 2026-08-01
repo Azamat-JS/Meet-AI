@@ -1,8 +1,12 @@
+import { Card } from '@/components/ui/card'
 import React from 'react'
 
 const SignUpPage = () => {
     return (
-        <div>SignUpPage</div>
+
+        <Card>
+            SignupPage
+        </Card>
     )
 }
 

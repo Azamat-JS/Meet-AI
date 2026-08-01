@@ -1,8 +1,11 @@
+import { Card } from '@/components/ui/card'
 import React from 'react'
 
 const SignInPage = () => {
     return (
-        <div>SignInPage</div>
+        <Card>
+            SignInPage
+        </Card>
     )
 }
 
