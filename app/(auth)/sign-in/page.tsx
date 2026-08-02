@@ -1,12 +1,7 @@
-import { Card } from '@/components/ui/card'
-import React from 'react'
+import SignInView from '@/modules/auth/ui/views/sign-in-view'
 
 const SignInPage = () => {
-    return (
-        <Card>
-            SignInPage
-        </Card>
-    )
+    return <SignInView />
 }
 
 export default SignInPage
