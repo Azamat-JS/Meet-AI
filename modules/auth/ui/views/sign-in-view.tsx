@@ -11,6 +11,7 @@ const SignInView = () => {
 
                     <form>col1</form>
                     <div className="bg-radial from-green-700 to-green-900 relative hidden md:flex flex-col items-center justify-center gap-y-4">
+                        <img src="/logo.svg" alt="Logo" className="w-23 h-23" />
                         <p className="text-2xl font-semibold text-white">Meet.AI</p>
                     </div>
 
